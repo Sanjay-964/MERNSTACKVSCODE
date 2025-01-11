@@ -1,0 +1,151 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #E0E0E0;
+  }
+  
+  a {
+    color: #64B5F6;
+    text-decoration: none;
+    margin: 10px;
+    display: inline;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header Section */
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1E1E1E;
+  }
+  
+  .top h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #BB86FC;
+  }
+  
+  /* Search Section */
+  .search {
+    text-align: right;
+    margin: 10px 20px;
+  }
+  
+  .search input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #333333;
+    background-color: #222222;
+    color: #E0E0E0;
+  }
+  
+  .search button {
+    background-color: #64B5F6;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search button:hover {
+    background-color: #42A5F5;
+  }
+  
+  /* Hero Section */
+  .heading {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .heading h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #BB86FC;
+  }
+  
+  .heading p {
+    font-size: 1.2rem;
+    color: #BBBBBB;
+  }
+  
+  /* Button Section */
+  .button-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .button {
+    text-decoration: none;
+    color: white;
+    background-color: #64B5F6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .button.secondary {
+    background-color: #333333;
+  }
+  
+  .button:hover {
+    background-color: #42A5F5;
+  }
+  
+  .button.secondary:hover {
+    background-color: #444444;
+  }
+  
+  /* Grid Section */
+  .grid1, .right-content {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 40px;
+  }
+  
+  .grid {
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .grid img {
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .extension-card {
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .extension-card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .extension-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #BB86FC;
+  }
+  .para{
+    font-size: small;
+    margin: 8px 0;
+  }
+ 
